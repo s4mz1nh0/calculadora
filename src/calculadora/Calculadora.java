@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author IFNMG
+ * @author IFNMG    
  */
 public class Calculadora extends Application {
     
@@ -25,6 +25,7 @@ public class Calculadora extends Application {
         
         stage.setScene(scene);
         stage.show();
+        stage.setTitle("Exercicio 1");
     }
 
     /**

@@ -36,6 +36,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Text textC;
     
+    
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
